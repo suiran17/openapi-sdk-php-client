@@ -1,4 +1,4 @@
-[← Prerequisites](0-Prerequisites.md) | Installation[(中文)](../zh/1-Installation.md) | [Client →](2-Client.md)
+[← Prerequisites](/docs/en/0-Prerequisites.md) | Installation[(中文)](/docs/zh/1-Installation.md) | [Client →](/docs/en/2-Client.md)
 ***
 
 # Installation
@@ -50,4 +50,4 @@ require __DIR__ . '/vendor/autoload.php';
 ```
 
 ***
-[← Prerequisites](0-Prerequisites.md) | Installation[(中文)](../zh/1-Installation.md) | [Client →](2-Client.md)
+[← Prerequisites](/docs/en/0-Prerequisites.md) | Installation[(中文)](/docs/zh/1-Installation.md) | [Client →](/docs/en/2-Client.md)

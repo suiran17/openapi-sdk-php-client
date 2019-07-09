@@ -1,4 +1,4 @@
-[← Debug](8-Debug.md) | Log[(中文)](../zh/9-Log.md) | [Test →](10-Test.md)
+[← Debug](/docs/en/8-Debug.md) | Log[(中文)](/docs/zh/9-Log.md) | [Test →](/docs/en/10-Test.md)
 ***
 
 # Log
@@ -68,4 +68,4 @@ The following variable substitutions are supported:
 | {start_time}     | Start Time |
 
 ***
-[← Debug](8-Debug.md) | Log[(中文)](../zh/9-Log.md) | [Test →](10-Test.md)
+[← Debug](/docs/en/8-Debug.md) | Log[(中文)](/docs/zh/9-Log.md) | [Test →](/docs/en/10-Test.md)
