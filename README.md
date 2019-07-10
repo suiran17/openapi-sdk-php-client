@@ -65,17 +65,17 @@ use AlibabaCloud\Client\Exception\ServerException;
 
 try {
     $result = AlibabaCloud::roa()
-                          ->regionId('cn-hangzhou') // 指定请求的区域，不指定则使用客户端区域、默认区域
-                          ->product('CS') // 指定产品
-                          ->version('2015-12-15') // 指定产品版本
-                          ->action('DescribeClusterServices') // 指定产品接口
-                          ->serviceCode('cs') // 设置 ServiceCode 以备寻址，非必须
-                          ->endpointType('openAPI') // 设置类型，非必须
-                          ->method('GET') // 指定请求方式
-                          ->host('cs.aliyun.com') // 指定域名则不会寻址，如认证方式为 Bearer Token 的服务则需要指定
-                          ->pathPattern('/clusters/[ClusterId]/services') // 指定ROA风格路径规则
-                          ->withClusterId('123456') // 为路径中参数赋值，方法名：with + 参数
-                          ->request(); // 发起请求并返回结果对象，请求需要放在设置的最后面
+                          ->regionId('cn-hangzhou')                         // 指定请求的区域，不指定则使用客户端区域、默认区域
+                          ->product('CS')                                   // 指定产品
+                          ->version('2015-12-15')                           // 指定产品版本
+                          ->action('DescribeClusterServices')               // 指定产品接口
+                          ->serviceCode('cs')                               // 设置 ServiceCode 以备寻址，非必须
+                          ->endpointType('openAPI')                         // 设置类型，非必须
+                          ->method('GET')                                   // 指定请求方式
+                          ->host('cs.aliyun.com')                           // 指定域名则不会寻址，如认证方式为 Bearer Token 的服务则需要指定
+                          ->pathPattern('/clusters/[ClusterId]/services')   // 指定ROA风格路径规则
+                          ->withClusterId('123456')                         // 为路径中参数赋值，方法名：with + 参数
+                          ->request();                                      // 发起请求并返回结果对象，请求需要放在设置的最后面
 
     print_r($result->toArray());
     
@@ -96,11 +96,11 @@ use AlibabaCloud\Client\Exception\ServerException;
 
 try {
     $result = AlibabaCloud::rpc()
-                          ->product('Cdn')
-                          ->version('2014-11-11')
-                          ->action('DescribeCdnService')
-                          ->method('POST')
-                          ->request();
+                          ->product('Cdn')                  //指定产品
+                          ->version('2014-11-11')           //指定产品版本
+                          ->action('DescribeCdnService')    //指定产品接口
+                          ->method('POST')                  //指定请求方式
+                          ->request();                      //发起请求并返回结果对象, 请求需要放在设置的最后面
 
     print_r($result->toArray());
 
